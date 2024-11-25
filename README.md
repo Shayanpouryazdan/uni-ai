@@ -1,5 +1,5 @@
 
-```markdown
+
 # 🧩 **8-Puzzle Solver**  
 
 ### 🚀 **درباره پروژه**  
@@ -17,32 +17,14 @@
 ---
 
 ### 📂 **ساختار پروژه**  
-```
-📦 8-puzzle-solver  
-┣ 📜 main.cpp           # کد اصلی پروژه  
-┣ 📜 bfs_solver.cpp     # حل مسئله با BFS  
-┣ 📜 a_star_manhattan.cpp  # الگوریتم A* با هیوریستیک منهتن  
-┣ 📜 a_star_misplaced.cpp  # الگوریتم A* با هیوریستیک تعداد خانه‌های اشتباه  
-┣ 📜 combined_a_star.cpp   # الگوریتم ترکیبی A*  
-┣ 📜 puzzles.txt         # نمونه پازل‌ها  
+
+📦 8-puzzle-solver
+┣ 📜 BFS FOLDER          #روش نا آگاهانه 
+┣ 📜 H1 FOLDER           # روش A*  با هیوریستیک (مجموع فاصله منهتن)  
+┣ 📜 H2 FOLDER           # روش  A* با هیوریستیک (چند خانه در مکان درست نیستن) 
+┣ 📜 H3 FOLDER           # ترکیب دو هیوریستیک  
 ┣ 📜 README.md           # توضیحات پروژه  
-```
 
----
-
-### 📖 **نحوه استفاده**  
-1. کد را از این ریپوزیتوری کلون کنید:  
-   ```bash
-   git clone https://github.com/username/8-puzzle-solver.git
-   cd 8-puzzle-solver
-   ```
-2. فایل کد اصلی (`main.cpp`) را کامپایل و اجرا کنید:  
-   ```bash
-   g++ main.cpp -o puzzle_solver
-   ./puzzle_solver
-   ```
-
----
 
 ### 🧪 **نمونه اجرا**  
 **ورودی:**  

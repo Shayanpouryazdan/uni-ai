@@ -1,0 +1,9 @@
+کد ALO 
+SearchAgents_no: تعداد جمعیت.
+Max_iter: تعداد تکرارها.
+lb و ub: حدود پایین و بالای فضای جستجو.
+dim: ابعاد مسئله.
+fobj: تابع هدف (Objective Function).
+نکته:
+کد بالا نیاز به توابع کمکی (Helper Functions) دارد که باید پیاده‌سازی شوند.
+
